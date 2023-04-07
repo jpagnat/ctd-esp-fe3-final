@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    background-color: #4DCCBD;
+}
+
+.link__navbar {
+    text-decoration: none;
+    margin: 0 16px;
+    color: #ffff;
+}
+
+.link__navbar:hover {
+    color: #34776d;
+}
+
+.btn__navbar {
+    margin: 0 16px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ffff;
+    width: 50px;
+    height: 50px;
+}
+
+.btn__navbar:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    color: #4DCCBD;
+    background-color: #34776d;
+}
+
+.moon-icon {
+    font-size: 24px;
+}
+
+.sun-icon {
+    font-size: 24px;
+}

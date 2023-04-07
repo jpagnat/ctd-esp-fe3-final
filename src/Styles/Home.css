@@ -1,0 +1,18 @@
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title-container {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.title-container p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+}

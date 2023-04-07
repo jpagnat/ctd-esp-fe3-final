@@ -1,0 +1,87 @@
+.link {
+    text-decoration: none;
+}
+
+.card {
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #4DCCBD;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin: 16px;
+    -webkit-box-shadow: 4px 5px 9px -3px rgba(99,148,141,1);
+    -moz-box-shadow: 4px 5px 9px -3px rgba(99,148,141,1);
+    box-shadow: 4px 5px 9px -3px rgba(99,148,141,1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card__img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    border: 0px solid #4DCCBD;
+}
+
+.id-container{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1c564e;
+}
+
+.card__name {
+    text-align: center;
+    margin-top: 4px;
+    color: #1c564e;
+}
+
+.favButton {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: #4DCCBD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.favButton:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #ffbcbc;
+    border-color: #000000;
+}
+
+.heart-icon {
+    color: #ffff;
+    font-size: 24px;
+}
+
+.favActive {
+    color: #ff0000;
+    font-size: 24px;
+}

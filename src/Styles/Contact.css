@@ -1,0 +1,19 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact__title {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #1c564e;
+}
+
+.contact__p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    color: #1c564e;
+}

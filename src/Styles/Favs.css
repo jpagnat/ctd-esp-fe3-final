@@ -1,0 +1,22 @@
+.not-fav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.not-fav__p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.title__fav {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.not-fav__img {
+    width: 400px;
+    margin-bottom: -24px;
+}
